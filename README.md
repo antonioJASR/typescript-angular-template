@@ -1,7 +1,7 @@
-Ionic App Base
-=====================
+TypeScript and Angular WebApp Base 
+==================================
 
-A starting project for Ionic that optionally supports using custom SCSS.
+A starting project using Ionic tools that optionally supports using custom SCSS.
 
 ## Using this project
 
