@@ -1,4 +1,4 @@
-TypeScript and Angular WebApp Base 
+TypeScript and Angular WebApp Base
 ==================================
 
 A starting project using Ionic tools that optionally supports using custom SCSS.
@@ -13,7 +13,7 @@ For example, to start a new Ionic project with the default tabs interface, make 
 npm install -g ionic gulp bower
 ```
 
-Install tools 
+Install tools
 ```bash
 npm install
 ```
@@ -30,18 +30,12 @@ Then run:
 $ ionic serve
 ```
 
-### Using typescript and sass
+### Using sass
 
-Install typescript tools:
-
-```bash
-npm install -g typescript
-```
-
-In order to compile sass and typescript files run:
+In order to compile sass files run:
 
 ```bash
-gulp 
+gulp
 ```
 
 If you are in development, you shuld run:
@@ -50,7 +44,5 @@ If you are in development, you shuld run:
 gulp watch
 ```
 
-After that, when you change some file it will be compiled. Actually all the
-typescript files will be compiled to a single Javascript file called app.js
-
-
+Open the project with an Editor that support the new standard tsconfig.json,
+the TypeScript files will be compiled and saved on www/js folder.

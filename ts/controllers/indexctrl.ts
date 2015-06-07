@@ -1,4 +1,3 @@
-/// <reference path='../_all.ts' />
 
 module app {
 
@@ -12,17 +11,17 @@ module app {
     }
 
     app.ngapp.controller('Index', Index);
-    
+
     function setRouteState ($stateProvider: ng.ui.IStateProvider) {
        var state: ng.ui.IState = {
            url: '/index',
            templateUrl: "templates/main.index.html",
            controller: 'Index'
        };
-       
+
        $stateProvider.state('main.index', state);
-    }   
-    
+    }
+
     app.ngapp.config(setRouteState);
-    
+
 }

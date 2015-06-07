@@ -1,5 +1,3 @@
-/// <reference path='_all.ts' />
-
 // this hide message errors from compiler
 interface Window {
     cordova: any;
@@ -13,7 +11,7 @@ module app  {
     ngapp.run(function () {
 
     });
-    
+
     ngapp.config(function($stateProvider, $urlRouterProvider) {
 
       $stateProvider.state('main', {
@@ -34,5 +32,5 @@ module app  {
       $urlRouterProvider.when("/", "/main/list");
       $urlRouterProvider.otherwise('/main/index');
     });
-    
+
 }
