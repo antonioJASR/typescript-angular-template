@@ -16,7 +16,6 @@
         "!./node_modules/**/*.ts"
     ],
     "files": [
-        "./_all.ts",
         "./controllers/indexctrl.ts",
         "./definitions/angular-ui/angular-ui-router-tests.ts",
         "./definitions/angular-ui/angular-ui-router.d.ts",
